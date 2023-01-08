@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ.get('API_ID','13305722'))
+API_HASH = environ.get('API_HASH','0b9497d7545311aa4268ead78cd76fb8')
+BOT_TOKEN = environ.get('BOT_TOKEN',"5432780251:AAEIAKuBaoZoyRW-jQFnxBjo1L246XtHeBM")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -46,7 +46,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/tamilfilmography1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/tamilfilmography1')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++tamilfilmography1')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@tamilfilmography1')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
@@ -54,7 +54,7 @@ SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Backupchannel12/5')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001257426098'))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', 0))
 
 # Bot Options
