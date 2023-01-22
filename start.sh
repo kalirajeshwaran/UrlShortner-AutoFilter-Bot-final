@@ -6,7 +6,10 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /UrlShortner-AutoFilter-Bot
 fi
+git clone https://github.com/KDBotz/LUCIFER
 cd /UrlShortner-AutoFilter-Bot
 pip3 install -U -r requirements.txt
 echo "Starting Lucifer...."
 python3 bot.py
+
+
